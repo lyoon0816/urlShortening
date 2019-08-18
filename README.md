@@ -10,7 +10,7 @@ ex) https://en.wikipedia.org/wiki/URL_shortening => http://localhost/JZfOQNro
 -ShortKey(8 Character이내)구현조건 맞추기 위해 System.nanoTime() 사용, 64비트 연산  
 >64비트 연산중, 64의 8승 초과범위 예외처리(/10)  
 
--DB를 사용하지 않고 개발  
+-DB 사용없이 개발  
 >Short url과 Original url 데이터 저장을 위해 Singleton 방식으로 공유  
 
 
