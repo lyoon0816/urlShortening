@@ -34,7 +34,5 @@ ex) https://en.wikipedia.org/wiki/URL_shortening => http://localhost/JZfOQNro
 
 
 ## import
-1.소스를 다운받습니다.
-2.eclipse에 import합니다.
-3.maven install 후 바로 실행 가능합니다.
+eclipse에 소스를 import하여 maven install 후 바로 실행 가능합니다.(tomcat필요)
 **개발tool이 없을경우를 대비하여 war파일도 업로드하였으니 참고 부탁드립니다.
