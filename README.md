@@ -20,7 +20,8 @@ ex) https://en.wikipedia.org/wiki/URL_shortening => http://localhost/JZfOQNro
 >내부 strOriginUrl(OriginalUrl)변경 가능  
 >실행결과  
   
-![이미지 10](https://user-images.githubusercontent.com/35560053/63227903-abe57c00-c226-11e9-9d6d-080d876d2127.jpg)
+![이미지 8](https://user-images.githubusercontent.com/35560053/63237454-0d383a00-c27d-11e9-8990-53fe7c0c74bb.jpg)
+
 
 
 ## web 실행 
