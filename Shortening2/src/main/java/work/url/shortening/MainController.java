@@ -64,9 +64,8 @@ public class MainController {
 		try 
 		{
 			paramMap.put("Target", request.getRequestURL().toString());
-			System.out.println("redirect:"+request.getRequestURL().toString());
 			String url = MainService.redirectUrl(request, response, paramMap);
-			logger.info("RedirectUrl[ From : "+request.getRequestURI().toString()+"  To : "+url+"]");
+			logger.info("RedirectUrl[ From : "+request.getRequestURL().toString()+"  To : "+url+"]");
 	        if (url != null) {
 	        	response.addHeader("Location", url);
 	        	response.setStatus(HttpServletResponse.SC_MOVED_PERMANENTLY);
@@ -86,7 +85,7 @@ public class MainController {
 		try 
 		{
 			String url = MainService.redirectUrl(request, response, paramMap);
-			logger.info("RedirectUrl[ From : "+request.getRequestURI().toString()+"  To : "+url+"]");
+			logger.info("RedirectUrl[ From : "+paramMap.get("Target")+"  To : "+url+"]");
 	        if (url != null) {
 	        	response.addHeader("Location", url);
 	        	response.setStatus(HttpServletResponse.SC_MOVED_PERMANENTLY);
